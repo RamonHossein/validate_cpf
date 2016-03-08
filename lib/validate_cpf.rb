@@ -1,5 +1,5 @@
 require "active_model"
-require "validate_cpf/validator"
+require "validate_cpf/cpf_validator"
 require "validate_cpf/version"
 
 module ValidateCpf
