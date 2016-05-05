@@ -10,7 +10,7 @@ Gem::Specification.new do |spec|
   spec.email         = ["hosseinramon@gmail.com"]
 
   spec.summary       = %q{Validates CPF}
-  spec.homepage      = "https://github.com/RamonHossein/validate_cpf."
+  spec.homepage      = "https://github.com/RamonHossein/validate_cpf"
   spec.license       = "MIT"
 
   spec.files         = `git ls-files -z`.split("\x0").reject { |f| f.match(%r{^(test|spec|features)/}) }
