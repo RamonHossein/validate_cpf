@@ -1,6 +1,8 @@
 # ValidateCpf
 
-Validate CPF.
+Para ler esta documentação em português click [aqui](https://github.com/RamonHossein/validate_cpf/blob/master/LEIAME.md).
+
+Adds CPF validation support to Rails (ActiveModel) and test it in a simple way.
 
 ## Installation
 
@@ -28,12 +30,28 @@ class User < ActiveRecord::Base
 end
 ```
 
+## Error Message
+
+If you need to localize the error message, just add this to your I18n locale file:
+
+```ruby
+errors:
+  messages:
+    this_document_is_invalid: "This document is invalid"
+```
+
+You can provide your own message using :message option.
+
+```ruby
+validates :cpf, cpf: {message: "new error message"}
+```
+
 ## Mantainers
-[@RamonHossein](https://github.com/RamonHossein)
+[RamonHossein](https://github.com/RamonHossein)
 
-## License
+## Contributors
 
-The gem is available as open source under the terms of the [MIT License](http://opensource.org/licenses/MIT).
+To see the generous people who have contributed code, take a look at the [contributors list](http://github.com/RamonHossein/validate_cpf/contributors).
 
 ## Contributing
 
@@ -42,3 +60,7 @@ The gem is available as open source under the terms of the [MIT License](http://
 3. Commit your changes (`git commit -am 'Added some feature'`)
 4. Push to the branch (`git push origin my-new-feature`)
 5. Create new Pull Request
+
+## License
+
+The gem is available as open source under the terms of the [MIT License](http://opensource.org/licenses/MIT).

@@ -3,12 +3,23 @@ require 'spec_helper'
 describe ValidateCpf do
   context 'should be invalid' do
     context 'wrong number' do
+      # Wrong validations
       it '123.456.789-10' do
         expect(ValidateCpf::Cpf.new("123.456.789-10")).to_not be_valid
       end
 
       it '12345678910' do
         expect(ValidateCpf::Cpf.new("12345678910")).to_not be_valid
+      end
+
+      # Wrong format
+      it '123.456.789-100' do
+        expect(ValidateCpf::Cpf.new("123.456.789-100")).to_not be_valid
+      end
+
+      # Wrong format
+      it '123.456.7891-10' do
+        expect(ValidateCpf::Cpf.new("123.456.7891-10")).to_not be_valid
       end
 
       it '0123456789' do
