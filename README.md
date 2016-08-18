@@ -1,5 +1,9 @@
 # ValidateCpf
 
+[![Gem Version](https://badge.fury.io/rb/validate_cpf.png)](http://badge.fury.io/rb/validate_cpf)
+[![Coverage Status](https://coveralls.io/repos/github/RamonHossein/validate_cpf/badge.svg)](https://coveralls.io/github/RamonHossein/validate_cpf)
+[![Build Status](https://secure.travis-ci.org/RamonHossein/validate_cpf.png?branch=master)](http://travis-ci.org/RamonHossein/validate_cpf)
+
 Para ler esta documentação em português click [aqui](https://github.com/RamonHossein/validate_cpf/blob/master/LEIAME.md).
 
 Adds CPF validation support to Rails (ActiveModel) and test it in a simple way.
