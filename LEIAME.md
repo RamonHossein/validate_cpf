@@ -1,7 +1,7 @@
 # ValidateCpf
 
 [![Gem Version](https://badge.fury.io/rb/validate_cpf.png)](http://badge.fury.io/rb/validate_cpf)
-[![Coverage Status](https://coveralls.io/repos/github/RamonHossein/validate_cpf/badge.svg)](https://coveralls.io/github/RamonHossein/validate_cpf)
+[![Coverage Status](https://coveralls.io/repos/github/RamonHossein/validate_cpf/badge.svg?branch=master)](https://coveralls.io/github/RamonHossein/validate_cpf?branch=master)
 [![Build Status](https://secure.travis-ci.org/RamonHossein/validate_cpf.png?branch=master)](http://travis-ci.org/RamonHossein/validate_cpf)
 
 To read this documentation in English click [here](https://github.com/RamonHossein/validate_cpf/blob/master/README.md).
